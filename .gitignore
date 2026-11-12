@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.log
+venv/
+env/
+.env
+
+# YOLO weights & datasets
+*.pt
+runs/
+
+# Alerts & media snapshots
+alerts/*
+!alerts/.gitkeep
+
+# Machine-specific ROI config
+roi_config.json
+
+# IDE & OS files
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
+.DS_Store
+
